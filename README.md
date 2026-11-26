@@ -1,7 +1,7 @@
 # Multi-hop evidence audit
 [Read the working paper (PDF)](Evidence-Audit.pdf) · [LaTeX source](paper.tex)
 
-A reproducible pilot comparing annotated-title retrieval with a planned blinded judgement of evidence sufficiency. Read paper.md for findings and limitations.
+A reproducible pilot comparing annotated-title retrieval with blinded AI judgements of evidence sufficiency. Read paper.md for findings and limitations.
 
 ## Reproduction
 Use Python 3.12 with the dependencies in requirements.txt. Supply a HotpotQA distractor validation Parquet file with the Hugging Face HotpotQA schema (https://huggingface.co/datasets/hotpotqa/hotpot_qa), and a local BGE-small English BERT checkpoint directory containing config.json, tokenizer.json and model.safetensors. Input fingerprints below identify the exact local files used.
@@ -39,4 +39,4 @@ Use the answerable development JSONL from [the authors](https://github.com/Stony
 | BGE | 24 | 26 |
 | BGE with title links | 29 | 27 |
 
-The public results contain scoring keys. Generate the two shuffled reader worksheets with retrieve.py and distribute each sheet privately with REVIEW.md. Independent sufficiency judgments are pending.
+The public results contain scoring keys. Generate the two shuffled reader worksheets with retrieve.py and distribute each sheet privately with REVIEW.md. Two AI readers completed the blinded audit. Their labels, disagreement counts and paired comparisons are available in [reviews/](reviews/). Independent human validation remains pending.

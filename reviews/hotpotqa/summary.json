@@ -1,0 +1,203 @@
+{
+  "questions": 50,
+  "sets": 105,
+  "four_way": {
+    "matched": 102,
+    "total": 105,
+    "fraction": 0.9714285714285714,
+    "kappa": 0.9416666666666667,
+    "cross_tab": {
+      "insufficient/insufficient": 65,
+      "insufficient/joint": 1,
+      "insufficient/single": 2,
+      "joint/joint": 34,
+      "single/single": 3
+    }
+  },
+  "binary": {
+    "matched": 102,
+    "total": 105,
+    "fraction": 0.9714285714285714,
+    "kappa": 0.9385365853658536,
+    "cross_tab": {
+      "False/False": 65,
+      "False/True": 3,
+      "True/True": 37
+    }
+  },
+  "disagreements": [
+    "00cdc448e50e5155",
+    "b48c53ff778f80db",
+    "e2d89ceaac647e31"
+  ],
+  "readers": {
+    "A": {
+      "methods": {
+        "BM25": {
+          "gold": 9,
+          "sufficient": 12,
+          "labels": {
+            "insufficient": 38,
+            "single": 2,
+            "joint": 10
+          },
+          "newly_credited": {
+            "single": 2,
+            "joint": 1
+          },
+          "gold_rejected": 0
+        },
+        "BGE": {
+          "gold": 24,
+          "sufficient": 24,
+          "labels": {
+            "joint": 22,
+            "single": 2,
+            "insufficient": 26
+          },
+          "newly_credited": {
+            "single": 1,
+            "joint": 1
+          },
+          "gold_rejected": 2
+        },
+        "BGE-title-link": {
+          "gold": 29,
+          "sufficient": 27,
+          "labels": {
+            "joint": 24,
+            "single": 3,
+            "insufficient": 23
+          },
+          "newly_credited": {
+            "single": 2
+          },
+          "gold_rejected": 4
+        }
+      },
+      "contrasts": {
+        "BGE minus BM25": {
+          "gap": {
+            "estimate": 0.24,
+            "ci95": [
+              0.08,
+              0.4
+            ]
+          },
+          "gap_change": {
+            "estimate": -0.06,
+            "ci95": [
+              -0.16,
+              0.02
+            ]
+          }
+        },
+        "BGE-title-link minus BGE": {
+          "gap": {
+            "estimate": 0.06,
+            "ci95": [
+              -0.08,
+              0.2
+            ]
+          },
+          "gap_change": {
+            "estimate": -0.04,
+            "ci95": [
+              -0.12,
+              0.04
+            ]
+          }
+        }
+      }
+    },
+    "B": {
+      "methods": {
+        "BM25": {
+          "gold": 9,
+          "sufficient": 13,
+          "labels": {
+            "insufficient": 37,
+            "single": 3,
+            "joint": 10
+          },
+          "newly_credited": {
+            "single": 3,
+            "joint": 1
+          },
+          "gold_rejected": 0
+        },
+        "BGE": {
+          "gold": 24,
+          "sufficient": 26,
+          "labels": {
+            "joint": 22,
+            "single": 4,
+            "insufficient": 24
+          },
+          "newly_credited": {
+            "single": 3,
+            "joint": 1
+          },
+          "gold_rejected": 2
+        },
+        "BGE-title-link": {
+          "gold": 29,
+          "sufficient": 30,
+          "labels": {
+            "joint": 25,
+            "single": 5,
+            "insufficient": 20
+          },
+          "newly_credited": {
+            "single": 4
+          },
+          "gold_rejected": 3
+        }
+      },
+      "contrasts": {
+        "BGE minus BM25": {
+          "gap": {
+            "estimate": 0.26,
+            "ci95": [
+              0.1,
+              0.42
+            ]
+          },
+          "gap_change": {
+            "estimate": -0.04,
+            "ci95": [
+              -0.14,
+              0.06
+            ]
+          }
+        },
+        "BGE-title-link minus BGE": {
+          "gap": {
+            "estimate": 0.08,
+            "ci95": [
+              -0.06,
+              0.22
+            ]
+          },
+          "gap_change": {
+            "estimate": -0.02,
+            "ci95": [
+              -0.1,
+              0.04
+            ]
+          }
+        }
+      }
+    }
+  },
+  "dispute_bounds_counts": {
+    "BGE minus BM25": [
+      12,
+      13
+    ],
+    "BGE-title-link minus BGE": [
+      3,
+      4
+    ]
+  }
+}

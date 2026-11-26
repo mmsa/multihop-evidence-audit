@@ -1,0 +1,200 @@
+{
+  "questions": 100,
+  "sets": 198,
+  "four_way": {
+    "matched": 197,
+    "total": 198,
+    "fraction": 0.9949494949494949,
+    "kappa": 0.9829662766689606,
+    "cross_tab": {
+      "insufficient/insufficient": 163,
+      "insufficient/joint": 1,
+      "joint/joint": 28,
+      "single/single": 6
+    }
+  },
+  "binary": {
+    "matched": 197,
+    "total": 198,
+    "fraction": 0.9949494949494949,
+    "kappa": 0.98244992022691,
+    "cross_tab": {
+      "False/False": 163,
+      "False/True": 1,
+      "True/True": 34
+    }
+  },
+  "disagreements": [
+    "68771f8dffbfe717"
+  ],
+  "readers": {
+    "A": {
+      "methods": {
+        "BM25": {
+          "gold": 13,
+          "sufficient": 11,
+          "labels": {
+            "joint": 8,
+            "insufficient": 89,
+            "single": 3
+          },
+          "newly_credited": {
+            "single": 3
+          },
+          "gold_rejected": 5
+        },
+        "BGE": {
+          "gold": 26,
+          "sufficient": 25,
+          "labels": {
+            "insufficient": 75,
+            "joint": 22,
+            "single": 3
+          },
+          "newly_credited": {
+            "single": 2,
+            "joint": 2
+          },
+          "gold_rejected": 5
+        },
+        "BGE-title-link": {
+          "gold": 27,
+          "sufficient": 26,
+          "labels": {
+            "insufficient": 74,
+            "joint": 23,
+            "single": 3
+          },
+          "newly_credited": {
+            "single": 2,
+            "joint": 2
+          },
+          "gold_rejected": 5
+        }
+      },
+      "contrasts": {
+        "BGE minus BM25": {
+          "gap": {
+            "estimate": 0.14,
+            "ci95": [
+              0.06,
+              0.23
+            ]
+          },
+          "gap_change": {
+            "estimate": 0.01,
+            "ci95": [
+              -0.04,
+              0.06
+            ]
+          }
+        },
+        "BGE-title-link minus BGE": {
+          "gap": {
+            "estimate": 0.01,
+            "ci95": [
+              -0.04,
+              0.06
+            ]
+          },
+          "gap_change": {
+            "estimate": 0,
+            "ci95": [
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "B": {
+      "methods": {
+        "BM25": {
+          "gold": 13,
+          "sufficient": 11,
+          "labels": {
+            "joint": 8,
+            "insufficient": 89,
+            "single": 3
+          },
+          "newly_credited": {
+            "single": 3
+          },
+          "gold_rejected": 5
+        },
+        "BGE": {
+          "gold": 26,
+          "sufficient": 26,
+          "labels": {
+            "insufficient": 74,
+            "joint": 23,
+            "single": 3
+          },
+          "newly_credited": {
+            "single": 2,
+            "joint": 2
+          },
+          "gold_rejected": 4
+        },
+        "BGE-title-link": {
+          "gold": 27,
+          "sufficient": 27,
+          "labels": {
+            "insufficient": 73,
+            "joint": 24,
+            "single": 3
+          },
+          "newly_credited": {
+            "single": 2,
+            "joint": 2
+          },
+          "gold_rejected": 4
+        }
+      },
+      "contrasts": {
+        "BGE minus BM25": {
+          "gap": {
+            "estimate": 0.15,
+            "ci95": [
+              0.07,
+              0.24
+            ]
+          },
+          "gap_change": {
+            "estimate": 0.02,
+            "ci95": [
+              -0.03,
+              0.07
+            ]
+          }
+        },
+        "BGE-title-link minus BGE": {
+          "gap": {
+            "estimate": 0.01,
+            "ci95": [
+              -0.04,
+              0.06
+            ]
+          },
+          "gap_change": {
+            "estimate": 0,
+            "ci95": [
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  },
+  "dispute_bounds_counts": {
+    "BGE minus BM25": [
+      14,
+      15
+    ],
+    "BGE-title-link minus BGE": [
+      1,
+      1
+    ]
+  }
+}
