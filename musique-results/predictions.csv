@@ -1,0 +1,301 @@
+question_id,method,item,gold,title_a,title_b
+2hop__13353_17738,BGE-title-link,368eb2220f048e2a,0,Dutch language,Belgium
+2hop__13353_17738,BM25,078cc248412703b1,1,Dutch language,Biodiversity
+2hop__13353_17738,BGE,e2103e28280b3402,0,Geluwe,Dutch language
+2hop__9238_9237,BGE,ae2be18395480e4b,0,Woja Airport,Marshall Islands
+2hop__9238_9237,BGE-title-link,ae2be18395480e4b,0,Woja Airport,Marshall Islands
+2hop__9238_9237,BM25,a73c2f838c047e96,0,Marshall Islands,Al-Masjid an-Nabawi
+2hop__418360_67370,BGE,e7d6cdd6261b1102,1,The New New Rules,Real Time with Bill Maher
+2hop__418360_67370,BGE-title-link,e7d6cdd6261b1102,1,The New New Rules,Real Time with Bill Maher
+2hop__418360_67370,BM25,1e1b703d63fdc2a1,0,Avatar (band),America's Funniest Home Videos
+2hop__486314_544665,BGE,fc3210dd498f0803,0,Hunt Slonem,Menucha Rochel Slonim
+2hop__486314_544665,BGE-title-link,fc3210dd498f0803,0,Hunt Slonem,Menucha Rochel Slonim
+2hop__486314_544665,BM25,5ae0ee02aaea17c0,0,List of Chicago Med characters,Menucha Rochel Slonim
+2hop__82669_768138,BM25,97dd259cb8cd169d,0,Theme from The Greatest American Hero (Believe It or Not),List of Melissa & Joey episodes
+2hop__82669_768138,BGE,e8fc6237863f1826,0,Melissa & Joey,Melissa & Joey
+2hop__82669_768138,BGE-title-link,e8fc6237863f1826,0,Melissa & Joey,Melissa & Joey
+2hop__24648_192417,BGE,5a407129a0a9f124,0,North Carolina,Kenndal McArdle
+2hop__24648_192417,BM25,3ca658524e8d5120,0,Super Bowl XXXVIII,North Carolina
+2hop__24648_192417,BGE-title-link,b3dfa37eb633281c,0,Bank of America Stadium,North Carolina
+2hop__269076_449113,BGE,0b8769c3abd35f4d,0,Transavia Denmark,Jonathan Gruber (filmmaker)
+2hop__269076_449113,BGE-title-link,0b8769c3abd35f4d,0,Transavia Denmark,Jonathan Gruber (filmmaker)
+2hop__269076_449113,BM25,9b1ce0ad47df9387,0,China United Airlines,Jonathan Gruber (filmmaker)
+2hop__455158_247871,BM25,23311d39ec9a8769,1,NRHEG High School,"New Richland, Minnesota"
+2hop__455158_247871,BGE,23311d39ec9a8769,1,NRHEG High School,"New Richland, Minnesota"
+2hop__455158_247871,BGE-title-link,23311d39ec9a8769,1,NRHEG High School,"New Richland, Minnesota"
+2hop__61752_54024,BGE,6a92c998aeb64cf3,0,King James Version,Banquo
+2hop__61752_54024,BGE-title-link,a888f706c49095b4,0,Banquo,Macbeth
+2hop__61752_54024,BM25,0321a0fe4174677e,0,Westminster Abbey,Macbeth
+2hop__374495_68633,BM25,909f1a21e5c8e11d,0,George Humphreys,Avery Brundage
+2hop__374495_68633,BGE,9b30769056114318,0,Avery Claflin,Avery Brundage
+2hop__374495_68633,BGE-title-link,9b30769056114318,0,Avery Claflin,Avery Brundage
+2hop__42747_83837,BM25,14d23de090bf916d,1,Home Alone Tonight,Light It Up (Luke Bryan song)
+2hop__42747_83837,BGE,14d23de090bf916d,1,Home Alone Tonight,Light It Up (Luke Bryan song)
+2hop__42747_83837,BGE-title-link,14d23de090bf916d,1,Home Alone Tonight,Light It Up (Luke Bryan song)
+2hop__160151_23241,BM25,906412908a37ea26,1,Marmaduke Pickthall,Nigeria
+2hop__160151_23241,BGE,906412908a37ea26,1,Marmaduke Pickthall,Nigeria
+2hop__160151_23241,BGE-title-link,906412908a37ea26,1,Marmaduke Pickthall,Nigeria
+2hop__2613_59409,BGE,d086344b162a3b4f,1,Kanye West,Song Cry
+2hop__2613_59409,BGE-title-link,d086344b162a3b4f,1,Kanye West,Song Cry
+2hop__2613_59409,BM25,4a72e178b5850829,0,I'll Cry If I Want To,Song Cry
+2hop__713299_55227,BM25,c6a35af0e8639568,0,April Rose Haydock,Here Comes the Boom
+2hop__713299_55227,BGE,6bd59e22ab4c3b49,1,Here Comes the Boom,Grown Ups (film)
+2hop__713299_55227,BGE-title-link,6bd59e22ab4c3b49,1,Here Comes the Boom,Grown Ups (film)
+2hop__132929_684936,BM25,19ccb6a4fb0c0a6d,0,Skyflash,"New Haven, Connecticut"
+2hop__132929_684936,BGE,4910ff93e60d1de2,0,IBM,Skyflash
+2hop__132929_684936,BGE-title-link,4910ff93e60d1de2,0,IBM,Skyflash
+2hop__26642_66233,BM25,572cd5d42abd1e4c,0,1977–78 AHL season,Exhibition game
+2hop__26642_66233,BGE,798b1f25c8eb7942,1,2018–19 NHL season,Exhibition game
+2hop__26642_66233,BGE-title-link,798b1f25c8eb7942,1,2018–19 NHL season,Exhibition game
+2hop__32541_85460,BM25,d8452c80a6d0a7ee,1,Household income in the United States,The Blitz
+2hop__32541_85460,BGE,d8452c80a6d0a7ee,1,Household income in the United States,The Blitz
+2hop__32541_85460,BGE-title-link,d8452c80a6d0a7ee,1,Household income in the United States,The Blitz
+2hop__135653_669373,BGE,b4b97e72df7a65ca,0,Mach number,Mach's principle
+2hop__135653_669373,BGE-title-link,b4b97e72df7a65ca,0,Mach number,Mach's principle
+2hop__135653_669373,BM25,04013c3b29f86807,0,Psycho (1960 film),Pareto principle
+2hop__89632_40480,BM25,61bb7fcbbfcfb0c4,0,Huguenots,Adafersaw Yenadu
+2hop__89632_40480,BGE,001b1c828d54d37b,1,The Patriot (2000 film),Huguenots
+2hop__89632_40480,BGE-title-link,35ad5adf77b2d8e3,0,Huguenots,Huguenots
+2hop__75207_7363,BM25,ac6a4a28f66aff56,0,Daylight saving time,The Motorcycle Diaries (film)
+2hop__75207_7363,BGE-title-link,2624184db5b4a2a5,0,Daylight saving time,Daylight saving time
+2hop__75207_7363,BGE,467c6f3ff6e1660a,0,Daylight saving time,Daylight saving time
+2hop__24976_161105,BM25,6b635f6d62bb519d,0,American Idol,Dissolution of the Soviet Union
+2hop__24976_161105,BGE,0831fc102cab4ac1,0,Impeachment in the United States,Impeachment in the United States
+2hop__24976_161105,BGE-title-link,0831fc102cab4ac1,0,Impeachment in the United States,Impeachment in the United States
+2hop__131061_54221,BGE,82f2b2f609c7bad6,1,Alcohol laws of Maine,Tracy-Causer Block
+2hop__131061_54221,BGE-title-link,82f2b2f609c7bad6,1,Alcohol laws of Maine,Tracy-Causer Block
+2hop__131061_54221,BM25,cacd949a08a575ee,0,Legal drinking age,Tracy-Causer Block
+2hop__143650_152023,BGE,1636dee671734e0e,0,Whiskey River,Delta Hardware
+2hop__143650_152023,BGE-title-link,1636dee671734e0e,0,Whiskey River,Delta Hardware
+2hop__143650_152023,BM25,e43d327b91b5200d,0,Hermine Kittel,Park Sang-jin
+2hop__691639_154896,BM25,5be7167f42e48fa1,0,South Yemen insurgency,National Socialist Front
+2hop__691639_154896,BGE,5ee8105bd8335488,1,South Yemen insurgency,People's Vanguard Party (South Yemen)
+2hop__691639_154896,BGE-title-link,5ee8105bd8335488,1,South Yemen insurgency,People's Vanguard Party (South Yemen)
+2hop__797443_120537,BM25,e4cfac3ad2ed2e52,0,Rover Group,Valanx
+2hop__797443_120537,BGE,ed5e7932f78a1d80,0,British Aerospace,Rover Group
+2hop__797443_120537,BGE-title-link,ed5e7932f78a1d80,0,British Aerospace,Rover Group
+2hop__87053_319330,BM25,d393b61552262ce4,0,David Gardiner Tyler,John E. Brooks
+2hop__87053_319330,BGE-title-link,1f45e51eb8e1fa2b,0,Woodrow Wilson,Woodrow Wilson
+2hop__87053_319330,BGE,2613012dcf3f9885,0,Esther Cleveland,Woodrow Wilson
+2hop__82910_75184,BM25,064a1e4b8aef135f,0,Brian Bonsall,Alex P. Keaton
+2hop__82910_75184,BGE,064a1e4b8aef135f,0,Brian Bonsall,Alex P. Keaton
+2hop__82910_75184,BGE-title-link,064a1e4b8aef135f,0,Brian Bonsall,Alex P. Keaton
+2hop__442175_56873,BGE,ebe254dbd6401a7c,0,Jamie Ward,Newcastle United F.C.
+2hop__442175_56873,BGE-title-link,ebe254dbd6401a7c,0,Jamie Ward,Newcastle United F.C.
+2hop__442175_56873,BM25,dac862f802b524fc,0,Jamie Ward,FC Barcelona
+2hop__730788_72813,BM25,16d9d6c14fe80320,0,Damadamm!,Philippe Petit
+2hop__730788_72813,BGE,e3250242ad7fba7f,0,Way Down in the Hole,Police of The Wire
+2hop__730788_72813,BGE-title-link,e3250242ad7fba7f,0,Way Down in the Hole,Police of The Wire
+2hop__132954_533882,BGE,c6b0f6ac4270c333,0,Ryan Aeronautical,ASM-N-5 Gorgon V
+2hop__132954_533882,BGE-title-link,c6b0f6ac4270c333,0,Ryan Aeronautical,ASM-N-5 Gorgon V
+2hop__132954_533882,BM25,2129890268ba8d20,0,American Stores,ASM-N-5 Gorgon V
+2hop__80860_510545,BGE,9a33f3856f43ad68,0,Paul Bettany,Andy Serkis
+2hop__80860_510545,BGE-title-link,9a33f3856f43ad68,0,Paul Bettany,Andy Serkis
+2hop__80860_510545,BM25,55b743e859e1d56b,0,Avengers: Age of Ultron,Roy Jarvis
+2hop__132472_120537,BM25,caac14aaa73c8f0c,0,Hirox,Capital punishment in New Zealand
+2hop__132472_120537,BGE,f9bab25febe495b6,0,Sound an Alarm,ALARM
+2hop__132472_120537,BGE-title-link,f9bab25febe495b6,0,Sound an Alarm,ALARM
+2hop__731956_126089,BM25,95fef5a65046ff8b,0,List of territorial entities where English is an official language,Castricum
+2hop__731956_126089,BGE,946300928028e1ef,0,Castricum,Australia
+2hop__731956_126089,BGE-title-link,3b42697c0537762f,1,Castricum,North Holland
+2hop__385392_756039,BM25,74c7e487d4266942,0,KTRP (AM),Minsk Region
+2hop__385392_756039,BGE,4a6b8479113c1ae5,0,KTRP (AM),KAPE
+2hop__385392_756039,BGE-title-link,4a6b8479113c1ae5,0,KTRP (AM),KAPE
+2hop__787538_31270,BGE,1b7848d784c7aa28,1,West Creek High School,Tennessee
+2hop__787538_31270,BGE-title-link,1b7848d784c7aa28,1,West Creek High School,Tennessee
+2hop__787538_31270,BM25,5f5f059a5a2f981d,0,"Brokensword, Ohio",Tennessee
+2hop__273020_57594,BM25,23ca6953a8d7d8a9,0,Anti-aircraft warfare,Westworld (TV series)
+2hop__273020_57594,BGE,97a0228c9ba0dc63,0,BL 18-inch Mk I naval gun,3-inch gun M1903
+2hop__273020_57594,BGE-title-link,97a0228c9ba0dc63,0,BL 18-inch Mk I naval gun,3-inch gun M1903
+2hop__60686_229757,BM25,7ddaeec61e34ce6c,0,List of Parks and Recreation characters,Ron and Tammys
+2hop__60686_229757,BGE,028b224634078013,0,Rashida Jones,Ron and Tammys
+2hop__60686_229757,BGE-title-link,492734b4d79096cc,0,Rashida Jones,Ann Perkins
+2hop__402530_774333,BM25,3ed59b7b1257bb81,0,"Imperial, Texas","Oak Lawn, Illinois"
+2hop__402530_774333,BGE,b380843d2cc6b095,0,Canada–United States border,"Imperial, Texas"
+2hop__402530_774333,BGE-title-link,b380843d2cc6b095,0,Canada–United States border,"Imperial, Texas"
+2hop__25396_593388,BGE,ebbca5ce347581ca,1,William Yates Peel,Political party
+2hop__25396_593388,BGE-title-link,ebbca5ce347581ca,1,William Yates Peel,Political party
+2hop__25396_593388,BM25,d8974fb3087ba96d,0,Frederick Kagan,Abdolali Bazargan
+2hop__44259_747874,BGE,c8be839faaae3ef1,0,1993 US Open – Men's Doubles,2012 US Open – Men's singles final
+2hop__44259_747874,BGE-title-link,c8be839faaae3ef1,0,1993 US Open – Men's Doubles,2012 US Open – Men's singles final
+2hop__44259_747874,BM25,02bd94686fda84cc,0,Marko Jevtović,2012 US Open – Men's singles final
+2hop__640262_122868,BM25,93003d88595f66a9,0,1967: The Last Good Year,Maxwell House
+2hop__640262_122868,BGE,736a537e7f73948e,0,Belinda Chang,1967: The Last Good Year
+2hop__640262_122868,BGE-title-link,736a537e7f73948e,0,Belinda Chang,1967: The Last Good Year
+2hop__2299_38663,BGE,4eda35fbc35382f5,0,Black Monday (1987),Tanzania
+2hop__2299_38663,BGE-title-link,4eda35fbc35382f5,0,Black Monday (1987),Tanzania
+2hop__2299_38663,BM25,437f69dec51d3ceb,0,Clifford the Big Red Dog (TV series),Tanzania
+2hop__70490_21567,BM25,af1f2e1d927f8709,0,C (musical note),Late Middle Ages
+2hop__70490_21567,BGE,ca5fb3e04ae4e0b7,0,Late Middle Ages,Classical music
+2hop__70490_21567,BGE-title-link,ca5fb3e04ae4e0b7,0,Late Middle Ages,Classical music
+2hop__373759_136043,BM25,98ad42da437d679c,0,American Horror Story: Freak Show,Chen Peisi
+2hop__373759_136043,BGE,90f48488aef7d318,0,Hummingbird Heartbeat,Heartbeat Detector
+2hop__373759_136043,BGE-title-link,90f48488aef7d318,0,Hummingbird Heartbeat,Heartbeat Detector
+2hop__452580_70131,BM25,84343b697b8ee5db,0,North Carolina,Free State of Brunswick
+2hop__452580_70131,BGE,84343b697b8ee5db,0,North Carolina,Free State of Brunswick
+2hop__452580_70131,BGE-title-link,84343b697b8ee5db,0,North Carolina,Free State of Brunswick
+2hop__781079_9237,BGE,3b05be4bf39a5138,0,Marshall Islands International Airport,Freeflight International Airport
+2hop__781079_9237,BM25,763b7ed920a86b51,1,Marshall Islands,Marshall Islands International Airport
+2hop__781079_9237,BGE-title-link,763b7ed920a86b51,1,Marshall Islands,Marshall Islands International Airport
+2hop__809096_491515,BM25,3e60bfa0cf17648f,1,Beckford's Tower,William Beckford (politician)
+2hop__809096_491515,BGE,3e60bfa0cf17648f,1,Beckford's Tower,William Beckford (politician)
+2hop__809096_491515,BGE-title-link,3e60bfa0cf17648f,1,Beckford's Tower,William Beckford (politician)
+2hop__1845_38366,BM25,ea34f2a2fb495236,0,New York City,"Riverdale, Georgia"
+2hop__1845_38366,BGE,ea34f2a2fb495236,0,New York City,"Riverdale, Georgia"
+2hop__1845_38366,BGE-title-link,52bde3989ef783ae,0,Riverdale High School,"Riverdale, Georgia"
+2hop__424908_500483,BM25,347dbcd5177a78b8,1,"Bieliny, Świętokrzyskie Voivodeship",Cisów-Orłowiny Landscape Park
+2hop__424908_500483,BGE,347dbcd5177a78b8,1,"Bieliny, Świętokrzyskie Voivodeship",Cisów-Orłowiny Landscape Park
+2hop__424908_500483,BGE-title-link,347dbcd5177a78b8,1,"Bieliny, Świętokrzyskie Voivodeship",Cisów-Orłowiny Landscape Park
+2hop__167577_31122,BM25,90807196ad0720c8,0,A Treatise Concerning the Principles of Human Knowledge,Humanism
+2hop__167577_31122,BGE,90807196ad0720c8,0,A Treatise Concerning the Principles of Human Knowledge,Humanism
+2hop__167577_31122,BGE-title-link,90807196ad0720c8,0,A Treatise Concerning the Principles of Human Knowledge,Humanism
+2hop__230022_68489,BM25,299cf3f55bb1b68e,0,Michael Knight (Knight Rider),Knight Rider
+2hop__230022_68489,BGE,ce6bfba55aa38817,0,Michael Baldwin,Michael Knight (Knight Rider)
+2hop__230022_68489,BGE-title-link,ce6bfba55aa38817,0,Michael Baldwin,Michael Knight (Knight Rider)
+2hop__50068_494136,BM25,bf4e3bb2684ebf2a,0,I Can Only Imagine (film),I Can Only Imagine (MercyMe song)
+2hop__50068_494136,BGE,bf4e3bb2684ebf2a,0,I Can Only Imagine (film),I Can Only Imagine (MercyMe song)
+2hop__50068_494136,BGE-title-link,bf4e3bb2684ebf2a,0,I Can Only Imagine (film),I Can Only Imagine (MercyMe song)
+2hop__157737_46621,BM25,d7afa154e6706168,0,Solar System,Kepler-10c
+2hop__157737_46621,BGE,4865bf09a973e4eb,0,Discovery and exploration of the Solar System,Solar System
+2hop__157737_46621,BGE-title-link,4865bf09a973e4eb,0,Discovery and exploration of the Solar System,Solar System
+2hop__748615_123956,BGE,9743747b00768d5c,1,Marzuki Alie,Battle of Palembang
+2hop__748615_123956,BGE-title-link,9743747b00768d5c,1,Marzuki Alie,Battle of Palembang
+2hop__748615_123956,BM25,1ffdb3abb1635bce,0,Marzuki Alie,Yang Meng
+2hop__271045_68633,BM25,b3c431e9ff44a605,0,Julio Maglione,Doris Pack
+2hop__271045_68633,BGE,90ff0b40ec515385,0,Julio Maglione,Julio César Félix
+2hop__271045_68633,BGE-title-link,90ff0b40ec515385,0,Julio Maglione,Julio César Félix
+2hop__86458_20273,BGE,cfed7dda293416a5,0,Presbyterianism,Presbyterianism
+2hop__86458_20273,BGE-title-link,cfed7dda293416a5,0,Presbyterianism,Presbyterianism
+2hop__86458_20273,BM25,5aa79ace0a40f6b7,0,Presbyterianism,Presbyterianism
+2hop__159737_27110,BGE,6beca0853e658f8c,0,Indo-Pakistani War of 1947–1948,India–United States Civil Nuclear Agreement
+2hop__159737_27110,BGE-title-link,6beca0853e658f8c,0,Indo-Pakistani War of 1947–1948,India–United States Civil Nuclear Agreement
+2hop__159737_27110,BM25,b48ce2bc9590cb24,0,Border Security Force,Indo-Pakistani War of 1947–1948
+2hop__153573_44085,BGE,5c0a5dde564f45bd,0,Mickey's Revue,Mickey's Safari in Letterland
+2hop__153573_44085,BM25,710480f13354f5ee,0,Mickey's Safari in Letterland,Metal Mickey
+2hop__153573_44085,BGE-title-link,c2d53d2ce2597a56,0,Mickey's Safari in Letterland,Mickey Mouse
+2hop__129499_85379,BGE,f92390f3019b744e,0,Poachie Range,Toiyabe Range
+2hop__129499_85379,BGE-title-link,f92390f3019b744e,0,Poachie Range,Toiyabe Range
+2hop__129499_85379,BM25,86c7e0de60f0a38e,0,Mount Fitzpatrick,Poachie Range
+2hop__95687_577502,BM25,23f7dc6cbf01e037,0,List of 24 characters,The 6th Day
+2hop__95687_577502,BGE,2de825011ee43525,0,The 6th Day,There Will Be Blood
+2hop__95687_577502,BGE-title-link,2de825011ee43525,0,The 6th Day,There Will Be Blood
+2hop__475808_71302,BM25,58ba15efb37b1169,0,The Moon Is a Harsh Mistress (song),Vincent Corleone
+2hop__475808_71302,BGE,a737275a370e2a10,0,Mistress (1992 film),Vito Corleone
+2hop__475808_71302,BGE-title-link,a737275a370e2a10,0,Mistress (1992 film),Vito Corleone
+2hop__35137_22901,BM25,3062987d73b79afe,0,Middle Ages,Avicenna
+2hop__35137_22901,BGE,4c2c5f0c26fcb5ba,0,Muslim world,Muslim world
+2hop__35137_22901,BGE-title-link,4c2c5f0c26fcb5ba,0,Muslim world,Muslim world
+2hop__445963_6095,BGE,7017ad7fd8d37888,0,Act Prohibiting Importation of Slaves,Saint Helena
+2hop__445963_6095,BM25,500b8f4aab80a523,1,Saint Helena,Francis Watson (cricketer)
+2hop__445963_6095,BGE-title-link,500b8f4aab80a523,1,Saint Helena,Francis Watson (cricketer)
+2hop__52283_75184,BGE,60d7715bed62c4ee,0,Back to the Future,Back to the Future (franchise)
+2hop__52283_75184,BGE-title-link,60d7715bed62c4ee,0,Back to the Future,Back to the Future (franchise)
+2hop__52283_75184,BM25,c73c63084fabf434,0,Back to the Future Part II,Back to the Future
+2hop__686395_141338,BM25,af17bd14cf4d37c4,0,Ian Ewen-Street,Frederic Ewen
+2hop__686395_141338,BGE,af17bd14cf4d37c4,0,Ian Ewen-Street,Frederic Ewen
+2hop__686395_141338,BGE-title-link,af17bd14cf4d37c4,0,Ian Ewen-Street,Frederic Ewen
+2hop__403580_37168,BM25,7c666026c6f0ec68,1,Egypt,Said Ashour
+2hop__403580_37168,BGE,7c666026c6f0ec68,1,Egypt,Said Ashour
+2hop__403580_37168,BGE-title-link,7c666026c6f0ec68,1,Egypt,Said Ashour
+2hop__39063_212301,BGE,aedf0aa22d8ead4b,0,Police,Police
+2hop__39063_212301,BGE-title-link,aedf0aa22d8ead4b,0,Police,Police
+2hop__39063_212301,BM25,57488e0a6f9c13d0,0,"Fyansford, Victoria",A Very Short Life
+2hop__121145_561444,BM25,9c178930b6a79089,0,Orthodox Judaism,Derech Mitzvosecha
+2hop__121145_561444,BGE,072d8ab7438bb622,0,Jack Cohen (rabbi),Derech Mitzvosecha
+2hop__121145_561444,BGE-title-link,072d8ab7438bb622,0,Jack Cohen (rabbi),Derech Mitzvosecha
+2hop__16581_16569,BM25,6d27a9bf93b309ea,0,Umayyad Caliphate,Ruth Williams Khama
+2hop__16581_16569,BGE,c78b67346db91f1a,1,Umayyad Caliphate,Umayyad Caliphate
+2hop__16581_16569,BGE-title-link,338cbfec427143ef,0,Umayyad Caliphate,"Punjab, Pakistan"
+2hop__96414_159054,BM25,acd3f72dd3ed699e,0,The Bourne Ultimatum (film),Heart of Glass (film)
+2hop__96414_159054,BGE,9882ae3bd3d89138,1,The Bourne Ultimatum (film),The Bourne Ultimatum
+2hop__96414_159054,BGE-title-link,9882ae3bd3d89138,1,The Bourne Ultimatum (film),The Bourne Ultimatum
+2hop__499577_617190,BM25,d06fcd5fb0266a20,0,Eetookashoo Bay,Johan Ludvig Heiberg (poet)
+2hop__499577_617190,BGE,66c9dd88c4ad6211,1,The Crisis and a Crisis in the Life of an Actress,Johan Ludvig Heiberg (poet)
+2hop__499577_617190,BGE-title-link,66c9dd88c4ad6211,1,The Crisis and a Crisis in the Life of an Actress,Johan Ludvig Heiberg (poet)
+2hop__198650_84856,BGE,eb8ea2ff72f32789,0,Season of the Jew,True Story: A Novel
+2hop__198650_84856,BGE-title-link,eb8ea2ff72f32789,0,Season of the Jew,True Story: A Novel
+2hop__198650_84856,BM25,ca561f8d14d14cef,0,Burnt Money,Frankenstein
+2hop__749997_96912,BM25,bdca518f655b3b0f,0,Faraday Lectureship Prize,Lectures on Jurisprudence
+2hop__749997_96912,BGE,bdca518f655b3b0f,0,Faraday Lectureship Prize,Lectures on Jurisprudence
+2hop__749997_96912,BGE-title-link,bdca518f655b3b0f,0,Faraday Lectureship Prize,Lectures on Jurisprudence
+2hop__814671_82341,BM25,82a4a511061c422d,1,"Ocala, Florida",WMOP
+2hop__814671_82341,BGE,44495d5b3af489c4,0,WMOP,WGGG
+2hop__814671_82341,BGE-title-link,44495d5b3af489c4,0,WMOP,WGGG
+2hop__789398_74735,BM25,1aff30b07a7cb760,0,She's a Woman,Too Late for Goodbyes
+2hop__789398_74735,BGE-title-link,de58ed28a010dcfb,0,Because (Beatles song),Lennon–McCartney
+2hop__789398_74735,BGE,661dc586e46ea5c6,0,Because (Beatles song),Michelle (song)
+2hop__723404_58556,BGE,cea9bc716d755407,0,Cuisinart,IPLEDGE program
+2hop__723404_58556,BGE-title-link,cea9bc716d755407,0,Cuisinart,IPLEDGE program
+2hop__723404_58556,BM25,611e7f29e836be47,1,FDA Food Safety Modernization Act,IPLEDGE program
+2hop__278022_71701,BGE,795e8ceed4c49227,0,Death of Wang Yue,Ming Ming (giant panda)
+2hop__278022_71701,BGE-title-link,795e8ceed4c49227,0,Death of Wang Yue,Ming Ming (giant panda)
+2hop__278022_71701,BM25,89600e98ce16a774,0,Death of Wang Yue,Sue Ryder
+2hop__671664_646310,BGE,68771f8dffbfe717,1,Stanly County Schools,"Red Cross, North Carolina"
+2hop__671664_646310,BGE-title-link,68771f8dffbfe717,1,Stanly County Schools,"Red Cross, North Carolina"
+2hop__671664_646310,BM25,62ae794d24c55252,0,List of territorial entities where English is an official language,"Red Cross, North Carolina"
+2hop__36269_63853,BM25,b9e5ac9ea11f8fc2,0,Namibia,Namibia
+2hop__36269_63853,BGE,f48daf53d7fd99c0,0,Namibia,Namibia
+2hop__36269_63853,BGE-title-link,f48daf53d7fd99c0,0,Namibia,Namibia
+2hop__409884_83837,BM25,7dac43bdbdea97e5,0,Forrest Gump,Country Girl (Shake It for Me)
+2hop__409884_83837,BGE,ff88bbc007e1183c,1,Country Girl (Shake It for Me),Home Alone Tonight
+2hop__409884_83837,BGE-title-link,ff88bbc007e1183c,1,Country Girl (Shake It for Me),Home Alone Tonight
+2hop__170914_152093,BM25,45abe78017a1e132,0,Friend Like That,Friend Like Me
+2hop__170914_152093,BGE,45abe78017a1e132,0,Friend Like That,Friend Like Me
+2hop__170914_152093,BGE-title-link,45abe78017a1e132,0,Friend Like That,Friend Like Me
+2hop__170341_43945,BM25,5426fc7d51a2b8ad,0,Patchwork Girl (hypertext),The Old Man and the Sea
+2hop__170341_43945,BGE,b490845b91bcaa34,0,Rights of Man,Common sense
+2hop__170341_43945,BGE-title-link,b490845b91bcaa34,0,Rights of Man,Common sense
+2hop__511296_577502,BGE,a415209402c95fd3,0,John Connor,Terminator (character)
+2hop__511296_577502,BM25,2d7339e519769ee6,0,List of show business families,Terminator (character)
+2hop__511296_577502,BGE-title-link,ebb23c39eb35d462,0,John Connor,Edward Furlong
+2hop__135652_669373,BM25,b1eb176c9aee2f8d,0,Fresnel number,Mach number
+2hop__135652_669373,BGE,74337186f46d4b61,0,Mach's principle,Mach number
+2hop__135652_669373,BGE-title-link,74337186f46d4b61,0,Mach's principle,Mach number
+2hop__46065_417697,BM25,d76f5e6219d61424,1,Mohamed Atta's Nissan,Nissan Stadium
+2hop__46065_417697,BGE,8c180a705c101c51,0,Nissan Stadium,Tennessee Titans
+2hop__46065_417697,BGE-title-link,8c180a705c101c51,0,Nissan Stadium,Tennessee Titans
+2hop__13574_13498,BGE,43631a95200f89b5,0,FC Barcelona,FC Barcelona
+2hop__13574_13498,BGE-title-link,43631a95200f89b5,0,FC Barcelona,FC Barcelona
+2hop__13574_13498,BM25,dee72a421b461d96,0,FC Barcelona,FC Barcelona
+2hop__91713_289940,BGE,3dd7a97cee12bd62,0,List of National Football League annual sacks leaders,Green Bay Packers
+2hop__91713_289940,BGE-title-link,3dd7a97cee12bd62,0,List of National Football League annual sacks leaders,Green Bay Packers
+2hop__91713_289940,BM25,6029ff2a5d027d1b,0,Jon Hand,Wes Schulmerich
+2hop__156702_51769,BM25,efb6efff39c792aa,0,Patuxent River,Golden Retriever
+2hop__156702_51769,BGE,4e4c78c7100c6da9,1,Patuxent River,Chesapeake Bay Retriever
+2hop__156702_51769,BGE-title-link,4e4c78c7100c6da9,1,Patuxent River,Chesapeake Bay Retriever
+2hop__289517_139339,BM25,195b7733c592f193,0,Cristina Yang,Griffin Dunne
+2hop__289517_139339,BGE,b6c6e03bcd3db326,0,13 Hours by Air,After Hours (film)
+2hop__289517_139339,BGE-title-link,59e9aba5971c932b,1,Griffin Dunne,After Hours (film)
+2hop__144150_82341,BM25,28fab251078869b8,0,"Pinellas County, Florida",Tom Denney
+2hop__144150_82341,BGE,7bc08232d5f192da,0,Tom Denney,William D. Denney
+2hop__144150_82341,BGE-title-link,7bc08232d5f192da,0,Tom Denney,William D. Denney
+2hop__846921_160249,BM25,712ee9a398090613,0,Phthia of Epirus,National Insurance number
+2hop__846921_160249,BGE,b03583b3dcab665b,0,Phthia of Epirus,Battle of Kay
+2hop__846921_160249,BGE-title-link,b03583b3dcab665b,0,Phthia of Epirus,Battle of Kay
+2hop__35418_22458,BM25,e2bb14611c38d193,0,Beara GAA,Association football
+2hop__35418_22458,BGE,9e637f4c705c09cf,0,Association football,Association football
+2hop__35418_22458,BGE-title-link,9e637f4c705c09cf,0,Association football,Association football
+2hop__860241_766393,BM25,87b08996050fd1eb,0,Missing Person (novel),The Goblin Emperor
+2hop__860241_766393,BGE,3659d1440b33ffe9,1,Patrick Modiano,Missing Person (novel)
+2hop__860241_766393,BGE-title-link,3659d1440b33ffe9,1,Patrick Modiano,Missing Person (novel)
+2hop__157339_156796,BM25,ea6c3788ba8981d9,0,Saint Louis River,Thuli River
+2hop__157339_156796,BGE,fa3769588eed810e,0,Thuli River,Bear River (Sustut River tributary)
+2hop__157339_156796,BGE-title-link,fa3769588eed810e,0,Thuli River,Bear River (Sustut River tributary)
+2hop__62951_64006,BM25,be648a92707029d2,0,Aftermath of World War II,Marshall Plan
+2hop__62951_64006,BGE,be648a92707029d2,0,Aftermath of World War II,Marshall Plan
+2hop__62951_64006,BGE-title-link,be648a92707029d2,0,Aftermath of World War II,Marshall Plan
+2hop__472083_7298,BGE,1c031f744cf4e565,1,Adult contemporary music,Illuminations (Josh Groban album)
+2hop__472083_7298,BGE-title-link,1c031f744cf4e565,1,Adult contemporary music,Illuminations (Josh Groban album)
+2hop__472083_7298,BM25,1967383308edbf18,0,Illuminations (Josh Groban album),Armenia
+2hop__142443_768138,BM25,6d003be90e0df5be,0,Nothin' My Love Can't Fix,Can't Get Enough (Eddy Grant album)
+2hop__142443_768138,BGE,6d003be90e0df5be,0,Nothin' My Love Can't Fix,Can't Get Enough (Eddy Grant album)
+2hop__142443_768138,BGE-title-link,6d003be90e0df5be,0,Nothin' My Love Can't Fix,Can't Get Enough (Eddy Grant album)
+2hop__73069_88165,BM25,71b5eb353f334b96,0,Christian,Sarah Osborne
+2hop__73069_88165,BGE,17802425dee2f5d5,1,Abrahamic religions,Keturah
+2hop__73069_88165,BGE-title-link,5972c5f28e592114,0,God,Abrahamic religions
+2hop__144763_599630,BGE,3aa1b464babb3752,0,Zhu Qinan,Zhu Yunlai
+2hop__144763_599630,BGE-title-link,3aa1b464babb3752,0,Zhu Qinan,Zhu Yunlai
+2hop__144763_599630,BM25,aa1319e723df35ce,0,Zhu Qinan,Biłgoraj County
+2hop__24441_36630,BM25,f0c4e365792f56a8,0,Child labour,Glass
+2hop__24441_36630,BGE,3d3f7a955d42d108,0,Glass,Child labour
+2hop__24441_36630,BGE-title-link,3d3f7a955d42d108,0,Glass,Child labour

@@ -1,0 +1,45 @@
+# Does gold evidence change which retriever wins?
+## A paired passage-retrieval audit on HotpotQA and MuSiQue
+Mohamed Mostafa · Independent Researcher · 26 November 2026
+
+### Abstract
+A retriever can miss an annotated passage yet return enough information to establish an answer. Does this discrepancy change how we compare retrieval systems? We compared BM25, BGE and BGE with a fixed title-link bonus on 50 HotpotQA questions and 100 two-hop MuSiQue questions. Each system returned two passages from the supplied candidate pool. BGE recovered the annotated pair more often than BM25 on both datasets. Its advantage was 30 percentage points on HotpotQA (paired bootstrap 95% interval 14 to 46) and 13 points on MuSiQue (4 to 23). The exploratory title-link bonus gained five questions on HotpotQA and one on MuSiQue. Inspection identified a case where an uncredited pair contained a single passage explicitly stating the answer. We release the predictions and a blinded protocol for distinguishing sufficient single passages from alternative evidence requiring both passages. The change in system ranking under human judgement remains unmeasured.
+
+### 1. Question and prior work
+HotpotQA annotates supporting sentences for multi-document questions (Yang et al., 2018). Ni, Gardner and Dasigi (2021) identified false-negative contexts in multi-document QA and addressed them during training. Trivedi et al. (2020) studied disconnected reasoning, where apparently multi-hop tasks admit shortcuts. Our proposed contribution concerns evaluation: how much does a difference between two retrievers change when a reader judges the passages they actually returned? Answers supported by one passage and answers requiring an alternative chain have different implications and should be counted separately.
+
+### 2. Methods
+All 7,405 validation questions had two distinct supporting titles present in their candidate pool and unique candidate titles. Sorting by ID before seeded sampling gave 42 bridge and eight comparison questions. The same two-passage budget and supplied candidates were used for all systems. Neither answer text nor supporting annotations were inputs to retrieval. BM25 used per-question document frequencies over the supplied passages. BGE ranked title-plus-text by cosine similarity after normalized CLS pooling. An exploratory pair scorer added 0.05 to the sum of two BGE similarities when one passage body mentioned the other's normalized full title. This is a separate baseline from the previously studied confidence-gated system. Ties followed source order.
+
+The automated outcome is exact recovery of the unordered pair of annotated paragraph titles. HotpotQA's official supporting-fact evaluation uses sentence-level annotations. For each contrast we resampled whole questions with replacement 5,000 times and calculated a percentile interval for the mean paired difference. The BGE versus BM25 contrast is primary. The title-link contrast is exploratory.
+
+For a cross-dataset check we sampled 100 questions uniformly from the 1,252 answerable two-hop MuSiQue development questions with exactly two annotated supporting passages (Trivedi et al., 2022). The original split comprises 2,417 examples across hop counts. We held scoring, query instruction, passage budget and title bonus fixed. MuSiQue support was compared by passage index because two candidate paragraphs can share a title. We calculated all intervals within each dataset. Candidate pools and question construction differ, so raw scores across datasets do not isolate a dataset effect.
+
+### 3. Pilot results
+BM25 recovered the gold pair on 9/50 questions (18%), BGE on 24/50 (48%) and BGE with title links on 29/50 (58%). BGE alone succeeded on 19 questions where BM25 failed, and BM25 alone succeeded on four. Both recovered the pair on five and both missed it on 22. The title-link rule gained nine gold matches and lost four relative to BGE. Its net difference of 10 percentage points had a paired 95% interval from −4 to +24 points.
+
+Across the three systems, 150 outputs reduced to 105 distinct question–passage sets. All three selected the same pair on six questions. A sufficient/insufficient decision on one of those six cannot change their relative scores. Keeping these questions in the denominator preserves the interpretation of each score as a rate over the sampled questions.
+
+On MuSiQue, BM25 recovered both supporting passages for 13/100 questions, BGE for 26/100, and BGE with title links for 27/100. BGE and BM25 selected different pairs on 83 questions. The exploratory title rule changed the BGE selection on 17 questions but its net advantage was one point (95% interval −4 to +6). The direction of the BGE versus BM25 difference replicated. The two pilots give little basis for recommending the title-link bonus as a general improvement.
+
+### 4. How many decisions would change the winner?
+The gold-pair lead of BGE over BM25 amounts to 15 questions on HotpotQA and 13 on MuSiQue. If readers accept every annotated pair, BM25 would need 15 more newly credited answers than BGE to tie on HotpotQA, and 16 to overtake. The corresponding thresholds on MuSiQue are 13 and 14. A shared passage pair contributes zero to the paired gap however readers label it. If readers also reject some annotated pairs, the same arithmetic applies to the net correction (credits gained minus credits lost). These thresholds express how large a scoring change would be consequential; they are not estimates of how often valid alternatives occur.
+
+### 5. What an exact miss can mean
+One question asks for the alternative name of Shakespeare's comedy Twelfth Night. BM25 selected the play and the 1996 film adaptation. The passage about the play explicitly identifies the subtitle What You Will. The pair scores zero under exact annotated-title recovery. This is an illustrative single-passage shortcut. It supplies no evidence about the frequency of valid alternative two-hop chains.
+
+Another question compares the ages of scientists Ernst Messerschmid and Philippe Perrin. BM25 retrieved Messerschmid and a French artist also named Philippe Perrin. Although the passages provide birth dates and include the proposed answer, the second passage describes the wrong person. Matching the answer string or finding two dates is insufficient. These illustrations were selected after inspecting system outputs and are excluded from any claim of independent human validation.
+
+### 6. Human endpoint and limitations
+Two independent readers should judge each pooled set from question, proposed answer, passage titles and text alone. Score jointly sufficient, single-passage sufficient, insufficient or indeterminate. Readers quote the propositions establishing the answer and identify missing links. Adjudicate disagreements after saving the original labels. The primary human outcome counts single and joint support. Report joint support separately and repeat with indeterminate cases treated as sufficient. The principal estimate is the human BGE–BM25 gap minus the annotated-title BGE–BM25 gap, resampling by question. In addition to its sign, report the magnitude and interval of the change. Preserve both original reader files for agreement reporting.
+
+The supplied distractor pool restricts which alternative chains can be discovered. The pilot contains eight comparison questions, and prior work on this development split means it cannot serve as a fresh confirmatory sample. Results cover local candidate reranking, not open-corpus retrieval. Independent review remains pending. Freeze the protocol and sample size before a larger, disjoint study; use questions disjoint from these two pilot samples. The MuSiQue study replicated only the automated comparison. Its 300 system outputs correspond to 198 distinct question–passage sets.
+
+### References
+Trivedi et al. (2022). MuSiQue: Multihop Questions via Single-hop Question Composition. https://aclanthology.org/2022.tacl-1.31/
+
+Yang et al. (2018). HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering. https://aclanthology.org/D18-1259/
+
+Ni, Gardner and Dasigi (2021). Mitigating False-Negative Contexts in Multi-document Question Answering with Retrieval Marginalization. https://aclanthology.org/2021.emnlp-main.497/
+
+Trivedi et al. (2020). Is Multihop QA in DiRe Condition? Measuring and Reducing Disconnected Reasoning. https://arxiv.org/abs/2005.00789

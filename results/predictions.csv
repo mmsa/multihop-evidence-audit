@@ -1,0 +1,151 @@
+question_id,method,item,gold,title_a,title_b
+5ab611cc5542992aa134a411,BM25,707af88aade4020b,0,Danny Cannon,Grand Central Murder
+5ab611cc5542992aa134a411,BGE,b11adf8e66b75232,1,Danny Cannon,S. Sylvan Simon
+5ab611cc5542992aa134a411,BGE-title-link,b11adf8e66b75232,1,Danny Cannon,S. Sylvan Simon
+5ab3eb1955429969a97a81f6,BM25,efd1e738ddbc3bd2,0,Twelfth Night (1996 film),Twelfth Night
+5ab3eb1955429969a97a81f6,BGE,efd1e738ddbc3bd2,0,Twelfth Night (1996 film),Twelfth Night
+5ab3eb1955429969a97a81f6,BGE-title-link,efd1e738ddbc3bd2,0,Twelfth Night (1996 film),Twelfth Night
+5a7339c85542991f9a20c6a2,BGE,e177d35ca9cd7be4,0,Tandragee Castle,Andrew Robb and David McIlwaine killings
+5a7339c85542991f9a20c6a2,BM25,57aa838ebc9dad39,0,Andrew Robb and David McIlwaine killings,Wild Horse Lake (Oklahoma)
+5a7339c85542991f9a20c6a2,BGE-title-link,3493f7136d7549e8,1,Andrew Robb and David McIlwaine killings,County Armagh
+5ac1b5de5542994d76dccec6,BGE-title-link,d856812bef2cff5e,1,All of the Lights,Rex Riot
+5ac1b5de5542994d76dccec6,BM25,c243218d156d3efe,0,Rex Riot,Can't Tell Me Nothing
+5ac1b5de5542994d76dccec6,BGE,a1638fa7909a839b,0,Slow Jamz,Rex Riot
+5ac547525542993e66e822a3,BM25,3e18662db62d1761,0,Oyewale Tomori,Supporting Healthy Marriage Project
+5ac547525542993e66e822a3,BGE,8296e0908776cfbe,0,United States Public Health Service,Food and Drug Administration
+5ac547525542993e66e822a3,BGE-title-link,8296e0908776cfbe,0,United States Public Health Service,Food and Drug Administration
+5a7739f25542994aec3b7234,BM25,58d49024642bf19f,0,Geoff Tate,Tool (band)
+5a7739f25542994aec3b7234,BGE,1e6dbb1ca801b372,0,Kirk Hammett,George Lynch (musician)
+5a7739f25542994aec3b7234,BGE-title-link,1e6dbb1ca801b372,0,Kirk Hammett,George Lynch (musician)
+5ae56a0d5542990ba0bbb29c,BM25,49a9eceb88c87cfc,0,"Unity, Maine","Steep Falls, Maine"
+5ae56a0d5542990ba0bbb29c,BGE,0dc69fa9bf6dcfb1,0,Maine School Administrative District 46,"Unity, Maine"
+5ae56a0d5542990ba0bbb29c,BGE-title-link,0dc69fa9bf6dcfb1,0,Maine School Administrative District 46,"Unity, Maine"
+5a8712095542991e771816af,BM25,dcd59f578d365524,0,Jon Gott,Marwan Hage
+5a8712095542991e771816af,BGE-title-link,dafb0d54d4afe830,1,Colorado Buffaloes,Marwan Hage
+5a8712095542991e771816af,BGE,5271e0f4d4261923,0,College of Charleston Cougars,Marwan Hage
+5a89e2ba5542992e4fca8441,BGE,58c804c7319c99ec,1,Gunsmoke,Milburn Stone
+5a89e2ba5542992e4fca8441,BGE-title-link,58c804c7319c99ec,1,Gunsmoke,Milburn Stone
+5a89e2ba5542992e4fca8441,BM25,141f53965005cc0a,0,Pahiram ng Isang Ina,Milburn Stone
+5ac2cb3e5542996773102627,BGE-title-link,8ef9828947720101,0,Isla Grande de Tierra del Fuego,"Río Grande, Tierra del Fuego"
+5ac2cb3e5542996773102627,BM25,d37e42b9cfa92d9a,1,Tolhuin,"Río Grande, Tierra del Fuego"
+5ac2cb3e5542996773102627,BGE,d37e42b9cfa92d9a,1,Tolhuin,"Río Grande, Tierra del Fuego"
+5a815f445542995ce29dcbec,BM25,403ad255dc396459,0,1998 NBA All-Star Game,Detlef Schrempf
+5a815f445542995ce29dcbec,BGE,3dee24e9305dbdf2,0,1997 NBA All-Star Game,1996–97 Seattle SuperSonics season
+5a815f445542995ce29dcbec,BGE-title-link,3dee24e9305dbdf2,0,1997 NBA All-Star Game,1996–97 Seattle SuperSonics season
+5ac2758b55429963665199c3,BGE,069aa704cbc77bd6,1,Nicolae Titulescu,League of Nations
+5ac2758b55429963665199c3,BGE-title-link,069aa704cbc77bd6,1,Nicolae Titulescu,League of Nations
+5ac2758b55429963665199c3,BM25,9918f673dff11510,0,Frank Jackson (Alabama),Susan Combs
+5ac235e355429951e9e684a2,BGE,5f403af243c82bba,0,Grandmasters (album),DJ Muggs
+5ac235e355429951e9e684a2,BGE-title-link,5f403af243c82bba,0,Grandmasters (album),DJ Muggs
+5ac235e355429951e9e684a2,BM25,8e83e00cc137f7e7,0,Grandmasters (album),Pain Language
+5a8752955542994775f607d1,BGE,4c42a4af92023c80,0,Mountain West Conference,Western Athletic Conference
+5a8752955542994775f607d1,BGE-title-link,4c42a4af92023c80,0,Mountain West Conference,Western Athletic Conference
+5a8752955542994775f607d1,BM25,1fc4a7b993b51a5f,1,Western Athletic Conference,1966 Arizona State Sun Devils football team
+5a78d16455429974737f78bb,BGE,48782c004a7163fc,1,Ernst Messerschmid,Philippe Perrin
+5a78d16455429974737f78bb,BGE-title-link,48782c004a7163fc,1,Ernst Messerschmid,Philippe Perrin
+5a78d16455429974737f78bb,BM25,d1e80b73a58c8fe6,0,Ernst Messerschmid,Philippe Perrin (artist)
+5a90213255429933b8a20482,BGE-title-link,ec81765f93b0b0b2,0,Live in the Tragic Kingdom,Tragic Kingdom World Tour
+5a90213255429933b8a20482,BGE,fdd6a1808fea438c,0,Tragic Kingdom World Tour,Happy Now? (No Doubt song)
+5a90213255429933b8a20482,BM25,933e74be8e363305,0,Rubens Bertogliati,Lizzi Waldmüller
+5a8b2dc055429950cd6afc62,BGE,ded268b7058e18b9,0,Michael Bean,The Man Who Killed Don Quixote
+5a8b2dc055429950cd6afc62,BGE-title-link,00cdc448e50e5155,1,Michael Bean,The Imaginarium of Doctor Parnassus
+5a8b2dc055429950cd6afc62,BM25,df51802d43222fe1,0,Story Time (film),Pythonesque (play)
+5a8331f15542993344745fe8,BM25,7cdb3101576be60f,0,Give a Man a Job,Gyara Hazar Ladkian
+5a8331f15542993344745fe8,BGE,7cdb3101576be60f,0,Give a Man a Job,Gyara Hazar Ladkian
+5a8331f15542993344745fe8,BGE-title-link,f484165651fe0d98,1,Gyara Hazar Ladkian,Ali Sardar Jafri
+5abb1fd95542996cc5e49fb6,BGE-title-link,c9c82501bcca9e65,1,Mogens Palle,Ken Buchanan
+5abb1fd95542996cc5e49fb6,BM25,e2835aea057a936d,0,Joachim Hansen (fighter),Mogens Palle
+5abb1fd95542996cc5e49fb6,BGE,e2835aea057a936d,0,Joachim Hansen (fighter),Mogens Palle
+5ae1b53b5542997283cd2255,BM25,d7d5c21dc75bae8c,0,Gopalpur Tussar Fabrics,Handicraft
+5ae1b53b5542997283cd2255,BGE-title-link,d7d5c21dc75bae8c,0,Gopalpur Tussar Fabrics,Handicraft
+5ae1b53b5542997283cd2255,BGE,488862a229f494a6,0,Shawl,Handicraft
+5a7a650355429941d65f2615,BM25,19a279197bafd50a,1,Lecrae,Gawvi
+5a7a650355429941d65f2615,BGE,19a279197bafd50a,1,Lecrae,Gawvi
+5a7a650355429941d65f2615,BGE-title-link,19a279197bafd50a,1,Lecrae,Gawvi
+5aba901055429955dce3ee87,BM25,7a80a861b1503a98,1,Trey Gowdy,Mike Conaway
+5aba901055429955dce3ee87,BGE,7a80a861b1503a98,1,Trey Gowdy,Mike Conaway
+5aba901055429955dce3ee87,BGE-title-link,7a80a861b1503a98,1,Trey Gowdy,Mike Conaway
+5ac3ba0455429939154138f2,BM25,e2d89ceaac647e31,0,Saturn AL-31,Sukhoi S-54
+5ac3ba0455429939154138f2,BGE,e2d89ceaac647e31,0,Saturn AL-31,Sukhoi S-54
+5ac3ba0455429939154138f2,BGE-title-link,e2d89ceaac647e31,0,Saturn AL-31,Sukhoi S-54
+5abd0077554299700f9d7954,BM25,786a74a2199af564,0,Lafe Pence,United States Senate
+5abd0077554299700f9d7954,BGE,baa904176473bd26,1,Lafe Pence,United States House of Representatives
+5abd0077554299700f9d7954,BGE-title-link,baa904176473bd26,1,Lafe Pence,United States House of Representatives
+5ae54c085542992663a4f1c4,BM25,d62843e006d8c9bc,0,Moose,Forests of Mara and Mondrem
+5ae54c085542992663a4f1c4,BGE,9e5c00b381b06a54,0,Red deer,Forests of Mara and Mondrem
+5ae54c085542992663a4f1c4,BGE-title-link,9e5c00b381b06a54,0,Red deer,Forests of Mara and Mondrem
+5a8fb0be5542997ba9cb32ed,BM25,9457572786fbf31f,0,For Adults Only,Bill's Best Friend
+5a8fb0be5542997ba9cb32ed,BGE,7103236ae004d00b,0,For Adults Only,Bill Cosby Is Not Himself These Days
+5a8fb0be5542997ba9cb32ed,BGE-title-link,7103236ae004d00b,0,For Adults Only,Bill Cosby Is Not Himself These Days
+5a8f08c2554299458435d530,BM25,fcb6ace5e0776936,1,Sian Gibson,Peter Kay's Car Share
+5a8f08c2554299458435d530,BGE,fcb6ace5e0776936,1,Sian Gibson,Peter Kay's Car Share
+5a8f08c2554299458435d530,BGE-title-link,fcb6ace5e0776936,1,Sian Gibson,Peter Kay's Car Share
+5adcdea85542992c1e3a2441,BM25,b0349980dc5f17aa,0,Ira Lewis,Les Misérables (1934 film)
+5adcdea85542992c1e3a2441,BGE,effb6b71ae4d79d7,0,Chinese Coffee,Ira Lewis
+5adcdea85542992c1e3a2441,BGE-title-link,effb6b71ae4d79d7,0,Chinese Coffee,Ira Lewis
+5a8cdcb0554299441c6b9f33,BGE,66490798442b42a3,1,Splash (film),Tangled
+5a8cdcb0554299441c6b9f33,BGE-title-link,66490798442b42a3,1,Splash (film),Tangled
+5a8cdcb0554299441c6b9f33,BM25,cac08890329342a7,0,Splash (film),Tangled Lives (1910 film)
+5a8d0c1b5542994ba4e3dbb3,BM25,20d0fc236724159a,0,Public Castration Is a Good Idea,Suresh Peters
+5a8d0c1b5542994ba4e3dbb3,BGE,fd8710a170e260a6,1,Chikku Bukku Rayile,Suresh Peters
+5a8d0c1b5542994ba4e3dbb3,BGE-title-link,fd8710a170e260a6,1,Chikku Bukku Rayile,Suresh Peters
+5a7fc5875542992e7d278d67,BM25,1442fb408e498e6a,0,John Hensley,Brian McNamara
+5a7fc5875542992e7d278d67,BGE,e97cdb281cc4bf35,1,John Hensley,Theo Avgerinos
+5a7fc5875542992e7d278d67,BGE-title-link,e97cdb281cc4bf35,1,John Hensley,Theo Avgerinos
+5ab7b0575542992aa3b8c83d,BGE-title-link,da5a118617825728,1,Las Vegas Monorail,Bally's &amp; Paris station
+5ab7b0575542992aa3b8c83d,BM25,e525683a1540c9bd,0,Bally's &amp; Paris station,Imbi Monorail station
+5ab7b0575542992aa3b8c83d,BGE,fa062bfe5036d85d,0,Moscow Monorail,Bally's &amp; Paris station
+5ae457a95542996836b02c85,BGE,b40e5a1d9520138e,1,Sing (2016 American film),Townsend Coleman
+5ae457a95542996836b02c85,BGE-title-link,b40e5a1d9520138e,1,Sing (2016 American film),Townsend Coleman
+5ae457a95542996836b02c85,BM25,90a87fb9e2fa493b,0,Townsend Coleman,Summer Holiday (1963 film)
+5a76c98855429972597f13d0,BM25,2e1e3643d62791f2,0,Long–Allen Bridge (Shreveport),Ocean To Ocean Bridge
+5a76c98855429972597f13d0,BGE,e28207475527c138,1,U.S. Route 80,Long–Allen Bridge (Shreveport)
+5a76c98855429972597f13d0,BGE-title-link,e28207475527c138,1,U.S. Route 80,Long–Allen Bridge (Shreveport)
+5abd2af955429933744ab74b,BGE,41793840308dd7c6,1,Irène Jacob,U.S. Marshals (film)
+5abd2af955429933744ab74b,BGE-title-link,41793840308dd7c6,1,Irène Jacob,U.S. Marshals (film)
+5abd2af955429933744ab74b,BM25,5fc16a0cc8cc1b7d,0,Irène Jacob,Yaanum Theeyavan
+5ade8f5955429975fa854f10,BM25,f23e39758ed8015d,0,Halloween with the New Addams Family,Uncle Fester
+5ade8f5955429975fa854f10,BGE,091a9c51bf8e5197,1,Christopher Lloyd,Uncle Fester
+5ade8f5955429975fa854f10,BGE-title-link,091a9c51bf8e5197,1,Christopher Lloyd,Uncle Fester
+5a823b0c55429940e5e1a804,BGE,b482210aff66584f,1,Stephen Lee (chemist),Tsung-Dao Lee
+5a823b0c55429940e5e1a804,BGE-title-link,b482210aff66584f,1,Stephen Lee (chemist),Tsung-Dao Lee
+5a823b0c55429940e5e1a804,BM25,034a7b9b5250938a,0,Michal Lipson,Tsung-Dao Lee
+5adde2475542997545bbbdc1,BGE,12caa47a32d81349,0,Old Dominion Monarchs baseball,1924 Colored World Series
+5adde2475542997545bbbdc1,BM25,646c42928413d5fc,0,Justin Verlander,Bobby Hammond
+5adde2475542997545bbbdc1,BGE-title-link,5c6d1e9e22a2a6e6,1,Justin Verlander,Old Dominion Monarchs baseball
+5ae0ec48554299422ee9955a,BGE,4ca4da569dd82b81,0,Ada Lovelace Award,Ada Lovelace
+5ae0ec48554299422ee9955a,BGE-title-link,4ca4da569dd82b81,0,Ada Lovelace Award,Ada Lovelace
+5ae0ec48554299422ee9955a,BM25,13392b1747b3a9c4,1,Childe Byron,Ada Lovelace
+5ae1dadf5542997f29b3c14f,BM25,cdc188a2761a5e9d,0,Arsenal F.C. Academy,List of Arsenal F.C. players
+5ae1dadf5542997f29b3c14f,BGE,79ecddd15ff31131,0,Arsenal F.C. league record by opponent,Arsenal F.C. Academy
+5ae1dadf5542997f29b3c14f,BGE-title-link,6118a764f8ef53eb,1,Andries Jonker,Arsenal F.C. Academy
+5a78e9d155429970f5fffdcc,BGE,db4b14793937e61e,1,Pepper Keenan,Rob Parissi
+5a78e9d155429970f5fffdcc,BM25,4dc1fd441e50e3f3,0,Rob Parissi,Corrosion of Conformity (album)
+5a78e9d155429970f5fffdcc,BGE-title-link,abd8923df73da05a,0,Play That Funky Music,Rob Parissi
+5a8b7dab5542997f31a41d4c,BGE-title-link,47d7181c11b01a46,0,Kauffman Stadium,Truman Sports Complex
+5a8b7dab5542997f31a41d4c,BGE,156bc4ec84be6a2c,0,1973 NFL season,Truman Sports Complex
+5a8b7dab5542997f31a41d4c,BM25,664a98dca5a97087,1,1973 NFL season,Arrowhead Stadium
+5abfde655542997719eab6f2,BM25,0d6e537b369e6894,0,From Your Mouth,The Dear Hunter
+5abfde655542997719eab6f2,BGE,aa8473d1657e8978,1,The Dear Hunter,God Lives Underwater
+5abfde655542997719eab6f2,BGE-title-link,aa8473d1657e8978,1,The Dear Hunter,God Lives Underwater
+5a8f47a55542997ba9cb3219,BGE,194e8f6dd662fa0c,0,Spam (food),Hormel
+5a8f47a55542997ba9cb3219,BGE-title-link,194e8f6dd662fa0c,0,Spam (food),Hormel
+5a8f47a55542997ba9cb3219,BM25,b6f37436b61156cc,0,Meat grinder,Spam musubi
+5a840e8a5542992ef85e239e,BM25,2a1ee533e65d80d0,0,North American television frequencies,Team Hole in the Wall
+5a840e8a5542992ef85e239e,BGE,2558448326213582,1,Mastodon (band),Hole (band)
+5a840e8a5542992ef85e239e,BGE-title-link,2558448326213582,1,Mastodon (band),Hole (band)
+5ab9b4a555429970cfb8eb75,BM25,d4067ef9d0905c87,0,Rick Husband Amarillo International Airport,Texas Air &amp; Space Museum
+5ab9b4a555429970cfb8eb75,BGE-title-link,d4067ef9d0905c87,0,Rick Husband Amarillo International Airport,Texas Air &amp; Space Museum
+5ab9b4a555429970cfb8eb75,BGE,3c067da61dc8042d,1,Rick Husband Amarillo International Airport,Grand Forks International Airport
+5a8c9e7c554299653c1aa0d1,BGE,b48c53ff778f80db,0,I Am... Yours,Jennifer Lopez: All I Have
+5a8c9e7c554299653c1aa0d1,BGE-title-link,b48c53ff778f80db,0,I Am... Yours,Jennifer Lopez: All I Have
+5a8c9e7c554299653c1aa0d1,BM25,af9e3d8013d41192,1,I Am... Yours,Encore Las Vegas
+5a8481945542997175ce1ed3,BM25,f0f7c42a188c1845,0,Step Back (album),Leslie West
+5a8481945542997175ce1ed3,BGE,1b708eaa651b5820,1,Steve Perry (Oregon musician),Leslie West
+5a8481945542997175ce1ed3,BGE-title-link,9127ac6e796782eb,0,The Leslie West Band,Leslie West
+5a7365b155429901807db02a,BGE,abd43750370aa49b,1,HMS Clonmel (1918),World War I
+5a7365b155429901807db02a,BGE-title-link,abd43750370aa49b,1,HMS Clonmel (1918),World War I
+5a7365b155429901807db02a,BM25,698202be5f395148,0,William Brown (Royal Navy officer),World War I
+5a90b6985542990a984936c2,BM25,0f81a8d16e3b8346,1,Emily Blunt,Arthur Newman (film)
+5a90b6985542990a984936c2,BGE,0f81a8d16e3b8346,1,Emily Blunt,Arthur Newman (film)
+5a90b6985542990a984936c2,BGE-title-link,0f81a8d16e3b8346,1,Emily Blunt,Arthur Newman (film)

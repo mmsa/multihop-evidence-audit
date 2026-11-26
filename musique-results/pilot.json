@@ -1,0 +1,29 @@
+{
+  "n": 100,
+  "sets": 198,
+  "gold_counts": {
+    "BM25": 13,
+    "BGE": 26,
+    "BGE-title-link": 27
+  },
+  "BGE minus BM25": {
+    "different_sets": 83,
+    "gold_gap": {
+      "estimate": 0.13,
+      "ci95": [
+        0.04,
+        0.23
+      ]
+    }
+  },
+  "BGE-title-link minus BGE": {
+    "different_sets": 17,
+    "gold_gap": {
+      "estimate": 0.01,
+      "ci95": [
+        -0.04,
+        0.06
+      ]
+    }
+  }
+}
