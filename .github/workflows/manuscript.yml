@@ -1,0 +1,28 @@
+name: Build IRRJ manuscript
+on:
+  push:
+    paths:
+      - 'manuscript/**'
+      - '.github/workflows/manuscript.yml'
+permissions:
+  contents: read
+jobs:
+  typeset:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install LaTeX
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-fonts-recommended
+      - name: Build and check cross-references
+        working-directory: manuscript
+        run: |
+          pdflatex -halt-on-error -interaction=nonstopmode main.tex
+          bibtex main
+          pdflatex -halt-on-error -interaction=nonstopmode main.tex
+          pdflatex -halt-on-error -interaction=nonstopmode main.tex
+          if grep -E 'There were undefined (references|citations)|Citation .* undefined|Reference .* undefined' main.log; then exit 1; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: IRRJ-manuscript
+          path: manuscript/main.pdf
